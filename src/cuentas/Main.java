@@ -1,10 +1,22 @@
 package cuentas;
+/**
+ * Clase principal que ejecuta el programa de gestión de cuentas bancarias.
+ * @author  Mosquera Astudillo Javier Alejandro
+ * @version 1.0
+ */
 public class Main {
-
+	/**
+     * Método principal que inicia la aplicación.
+     * @param args Argumentos de la línea de comandos.
+     */
     public static void main(String[] args) {
         operativa_cuenta(500f);
     }
-
+    /**
+     * Método que realiza operaciones de ingreso y retiro sobre una cuenta.
+     * @param cuenta1 Cuenta sobre la que se realizan operaciones.
+     * @param cantidad Cantidad a ingresar y retirar.
+     */
 	private static void operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
         double saldoActual;
